@@ -8,6 +8,7 @@ import win32api, win32con
 
 # click :)
 def click(x, y):
+    print(x, y)
     win32api.SetCursorPos((x, y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
     time.sleep(0.01)
@@ -447,12 +448,12 @@ while keyboard.is_pressed('left alt') == False:
     #stop = continuousclick()
     #stop = checkPosition(352, 546)
     #stop = checkClick()
-    #stop = autoRTA(0)
+    stop = autoRTA(0)
     #stop = autoRTAsl(0)
     #stop = autoTOA()
     #stop = oneStupgrade()
     #stop = breakEssence(20)
-    stop = summon10x(2000)
+    #stop = summon10x(2000)
 
     if stop == 1:
         break
