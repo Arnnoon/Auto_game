@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 pyautogui
 keyboard
+=======
+pyautogui
+keyboard
+>>>>>>> 7b49a9fd5ad0d5342c3b63cf76cd99a7b96e13ea
 pypiwin32
